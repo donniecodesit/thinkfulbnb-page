@@ -19,7 +19,7 @@ h3 {
 
 p {
   line-height: 1.5em;
-  margin: 0;
+  margin: 10px;
 }
 
 section {
@@ -151,7 +151,6 @@ footer p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-flow: row nowrap;
     align-items: center;
   }
 
@@ -160,9 +159,14 @@ footer p {
     font-size: 24px;
   }
 
+  nav ul {
+    flex-wrap: wrap;
+  }
+
   form {
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
   }
   
   form div {
