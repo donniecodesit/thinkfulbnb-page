@@ -61,9 +61,10 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 60px;
   color: #fff;
 }
+
 header nav ul {
   display: flex;
   flex-direction: row;
@@ -134,10 +135,11 @@ footer p {
   color: #fff;
   text-align: center;
   padding: 20px;
+  margin: 0px;
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width:481px) {
+@media all and (min-width:480px) {
   header {
     display: flex;
     justify-content: space-between;
@@ -145,6 +147,7 @@ footer p {
 
   .logo {
     padding-bottom: 10px;
+    font-size: 72px;
   }
 
   .group {
